@@ -1,8 +1,9 @@
+import styles from './AboutUs.module.css'
 function AboutUs() {
     return (
       <>
-        {/* will this override the header? Or should we make it h2? */}
-        <h1>About Us</h1> 
+        <div className={styles.aboutUs}>
+        <h1 className={styles.title}>About Us</h1> 
         <h2>Welcome to Find Me a Recipe, your go-to destination for exploring delicious meals based on the foods you love. Whether you're craving meaty entrees, cheesy pizzas, fresh seafood dishes, or sweet treats, we make it easy to discover recipes that match your taste.</h2>
         <h2>How It Works</h2>
         <ol>
@@ -18,6 +19,7 @@ function AboutUs() {
         </ul>
         <h2>At Find Me a Recipe, we believe that cooking should be exciting, effortless, and tailored to your cravings. Start searching today and discover your next favorite dish!
         </h2>
+        </div>
         </>  
     );
   }

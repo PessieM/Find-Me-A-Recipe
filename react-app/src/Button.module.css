@@ -1,0 +1,22 @@
+button{
+    background-color: rgb(177, 186, 186);
+    color:rgb(20, 117, 117)
+
+}
+
+.searchBtn{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    padding: 15px 30px;
+    display: block; /* Ensures proper sizing */
+    
+}
+
+.resultBtn{
+    margin: 10px;
+}
+
+button:hover{
+    border-color: var(--orange);
+}
