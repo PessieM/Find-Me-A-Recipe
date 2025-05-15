@@ -1,5 +1,5 @@
 import Button from './Button';
 
-export default function searchButton() {
-  return <Button type = "submit" label = "Search" />;
+export default function SearchButton({className}) {
+  return <Button type = "submit" label = "Search" className={className} />;
 }

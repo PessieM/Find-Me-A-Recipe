@@ -1,0 +1,25 @@
+nav {
+    background-color: var(--grey);
+    padding: 1px 10px;
+    display: flex;
+    justify-content: space-between; /* Spread out links */
+    box-sizing: border-box;
+    position:fixed;/* Stays at the top */
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 1000; /*stays above everything else*/
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: var(--orange);
+  }
+  
