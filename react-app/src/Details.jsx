@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MapRecipe from './MapRecipe';
-import styles from './Details.module.css'
+import styles from './Details.module.css';
 
 export default function Details() {
     const { id } = useParams();
