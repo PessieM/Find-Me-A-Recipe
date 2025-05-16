@@ -5,7 +5,9 @@ export default function ResultsButton({ id, label, className }) {
     const navigate = useNavigate();
 
     return (
-        <Button onClick={() => navigate(`/Details/:${id}`)} className={className}
+        <Button
+            onClick={() => navigate(`/Details/${id}`)}
+            className={className}
             label={label}
         />
     )
