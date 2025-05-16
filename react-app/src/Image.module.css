@@ -1,0 +1,13 @@
+img{
+    width: 300px;
+    height: auto; /*Maintain aspect ratio*/
+    border-radius: 10px; 
+    box-shadow: 10px 10px 15px rgba(9, 9, 9, 0.3);
+
+
+}
+.logo{
+    margin-top:60px;
+    width:100px;
+    height:100px;
+}
