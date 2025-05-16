@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MapRecipe from './MapRecipe';
+import styles from './Details.module.css';
 
 export default function Details() {
     const { id } = useParams();
@@ -17,7 +18,7 @@ export default function Details() {
   }, [id]);
 
   return (
-    <div>
+    <div className={styles.details}>
       {recipe.length ? <MapRecipe recipe={recipe} /> : <p>Loading...</p>}
     </div>
     );
