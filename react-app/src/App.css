@@ -3,9 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  --grey:#8e8c92;
-  --orange:#f37f12;
-  --blue:#0f607b;
+  --green:#5d6048;;
+  --red:#d1302f;;
+  --ltgreen:#3c703a;;
+  --brown: #a58d6a;
 }
 
 .logo {
