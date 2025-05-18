@@ -1,6 +1,6 @@
 button{
-    background-color: rgb(177, 186, 186);
-    color:rgb(20, 117, 117)
+    background-color: var(--green);
+    color:#ffffff;  
 
 }
 
@@ -10,6 +10,7 @@ button{
     font-size: 20px;
     padding: 15px 30px;
     display: block; /* Ensures proper sizing */
+    background-color: var(--brown);
     
 }
 
@@ -18,5 +19,6 @@ button{
 }
 
 button:hover{
-    border-color: var(--orange);
+    border-color: var(--red);
+    border-width: 1.3px;
 }

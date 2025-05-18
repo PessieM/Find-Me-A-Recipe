@@ -3,12 +3,15 @@
 }
 ul,ol{
     list-style: none;
-    color:var(--grey);
+    color:var(--green);
 }
 .title{
     font-size: 40px;
-    color: var(--blue);
+    color: var(--red);
 }
 h2{
-    color:var(--orange);
+    color:var(--brown);
+}
+.subtitle{
+    color:var(--ltgreen);
 }

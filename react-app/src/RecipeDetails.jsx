@@ -16,4 +16,3 @@ export default function RecipeDetails({ title, instructions, image, ingredients 
             <BackButton />
         </div>
     );
-}
