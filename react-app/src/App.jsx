@@ -6,7 +6,7 @@ import Navbar from './navBar';
 import Footer from './footer';
 import Header from './header';
 import './App.css';
-
+import Logo from './Logo.png';
 export default function App() {
   return (
     <Router>
