@@ -1,3 +1,5 @@
+import BackButton from './BackButton';
+
 export default function RecipeDetails({ title, instructions, image, ingredients }) {
     return (
         <div>
@@ -16,3 +18,4 @@ export default function RecipeDetails({ title, instructions, image, ingredients 
             <BackButton />
         </div>
     );
+}
