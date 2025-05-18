@@ -15,8 +15,8 @@ form{
     height: 60px; /* Adjust height */
     font-size: 25px; /* Make text larger */
     padding: 10px; /* Adds space inside the box */  
-    border-color: var(--orange);
+    border-color: var(--red);
     border-width: 4px;
-    color:var(--blue);
+    color:var(--red);
     border-radius: 10px;
 }

@@ -1,7 +1,7 @@
 export default function RecipeDetails({ title, instructions, image, ingredients }) {
     return (
         <div>
-            <h2>{title}</h2>
+            <h1>{title}</h1>
             <img src={image} alt={title} width="30%"/>
             <h3>Ingredients</h3>
             <ul>

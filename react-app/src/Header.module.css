@@ -1,10 +1,8 @@
 header {
-    color: var(--blue);
-    position: absolute; /* Makes sure it stays in place */
-    top: 10px; /* Push below the navbar */
+    position: absolute;
+    top: 10px; 
     left: 0;
     width: 100%;
-    text-align: center; 
   }
 
 
