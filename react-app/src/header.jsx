@@ -4,7 +4,6 @@ function Header() {
     return (
       <header className={styles.header}>
         <img src="Logo.png" alt="Logo" className={imgStyle.logo}/>
-        {/* <h1>Find-Me-A-Recipe</h1> */}
       </header>
     );
   }

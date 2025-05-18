@@ -10,5 +10,8 @@ ul,ol{
     color: var(--red);
 }
 h2{
-    color:var(--red);
+    color:var(--brown);
+}
+.subtitle{
+    color:var(--ltgreen);
 }
