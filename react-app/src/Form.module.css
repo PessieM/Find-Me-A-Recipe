@@ -20,3 +20,7 @@ form{
     color:var(--red);
     border-radius: 10px;
 }
+.error{
+    color:var(--red);
+    font-size: 30px;
+}
